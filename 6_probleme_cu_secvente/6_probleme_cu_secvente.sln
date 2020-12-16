@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6_probleme_cu_secvente", "6_probleme_cu_secvente\6_probleme_cu_secvente.csproj", "{CCE6276D-E93D-42D8-A569-4E796CCBD344}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CCE6276D-E93D-42D8-A569-4E796CCBD344}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCE6276D-E93D-42D8-A569-4E796CCBD344}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCE6276D-E93D-42D8-A569-4E796CCBD344}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCE6276D-E93D-42D8-A569-4E796CCBD344}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {92689332-54C4-4346-8B18-84FBEE1F599F}
+	EndGlobalSection
+EndGlobal
