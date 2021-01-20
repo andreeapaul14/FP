@@ -8,18 +8,27 @@ namespace _1_pool3
 {
     class Program
     {
+        /// <summary>
+        ///  Calculati suma elementelor unui vector de n numere citite de la
+        ///  tastatura.Rezultatul se va afisa
+        /// </summary>
+        /// <param name="args"></param>
+        /// 
+        //Random rnd = new Random();
         static void Main(string[] args)
         {
-            int n, i, s = 0;
-            int[] a = new int[100];
-            Console.WriteLine("Dati nr de elemente de initializat din vector");
+            int n;
+            Console.Write("n: ");
             n = int.Parse(Console.ReadLine());
-            for (i = 1; i <= n ; i++)
+            int[] v = new int[n];
+            int S = 0;
+            for (int i = 0; i < n; i++)
             {
-                a[i] = int.Parse(Console.ReadLine());
-                s = s + a[i];
+                v[i] = int.Parse(Console.ReadLine());
+                S = S + v[i];
             }
-            Console.WriteLine("Suma={0}", s);
+            Console.WriteLine($"Suma este: {S}");
+
         }
     }
 }
